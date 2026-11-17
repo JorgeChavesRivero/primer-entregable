@@ -1,0 +1,28 @@
+.contenedor {
+  max-width: var(--ancho-contenedor);
+  margin: 0 auto;
+  padding: var(--espacio-3);
+}
+
+.hero {
+  background-color: var(--rojo-oscuro);
+  color: var(--blanco);
+  padding: var(--espacio-4) 0;
+  border-bottom: 4px solid var(--lima);
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.subtitulo {
+  margin-top: var(--espacio-1);
+  font-size: var(--texto-lg);
+}
+
+.seccion {
+  margin: var(--espacio-3) 0;
+  font-size: var(--texto-xl);
+  color: var(--rojo-nutresa);
+}
