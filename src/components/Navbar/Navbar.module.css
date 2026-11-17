@@ -1,0 +1,43 @@
+.navbar {
+  background-color: var(--rojo-nutresa);
+  color: var(--blanco);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: var(--sombra-card);
+}
+
+.contenedor {
+  max-width: var(--ancho-contenedor);
+  margin: 0 auto;
+  padding: var(--espacio-2) var(--espacio-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-2);
+  flex-wrap: wrap;
+}
+
+.marca {
+  font-size: var(--texto-xl);
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.lista {
+  display: flex;
+  gap: var(--espacio-3);
+  flex-wrap: wrap;
+}
+
+.enlace {
+  font-weight: 600;
+  padding-bottom: 4px;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.enlace:hover,
+.enlace:focus-visible {
+  border-bottom-color: var(--lima);
+}
